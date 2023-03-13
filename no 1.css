@@ -1,0 +1,13 @@
+function change_p_color () 
+    {
+       var pFontColor = $('p').css('color');
+
+       if (pFontColor == "orange")
+       {
+          $('p').css('color', "black");
+       }
+       else
+       {
+          $('p').css('color', "orange");
+       }
+    }
